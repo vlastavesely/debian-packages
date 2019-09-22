@@ -1,0 +1,15 @@
+Source: raleigh-reloaded
+Section: misc
+Priority: optional
+Maintainer: Vlasta Vesely <vlastavesely@protonmail.ch>
+Standards-Version: 4.4.0.1
+Build-Depends: debhelper-compat (= 11)
+Vcs-Git: https://gitlab.com/vlastavesely/raleigh-reloaded.git
+Vcs-Browser: https://gitlab.com/vlastavesely/raleigh-reloaded
+
+Package: raleigh-reloaded
+Architecture: all
+Depends: ${misc:Depends}
+Description: GTK-3.20 version of Raleigh theme
+ Raleigh Reloaded is a conservative GTK-3.20 theme aiming to revive the
+ Raleigh theme, the default theme of GTK-2.0.
