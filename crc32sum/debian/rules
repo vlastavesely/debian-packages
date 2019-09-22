@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+PREFIX := $$(pwd)/debian/crc32sum/usr
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	install -m 0755 -d $(PREFIX)/bin
+	install -m 0755 -d $(PREFIX)/share/man/man1
+	$(MAKE) PREFIX=$(PREFIX) install

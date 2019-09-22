@@ -1,0 +1,16 @@
+Source: crc32sum
+Section: misc
+Priority: optional
+Maintainer: Vlasta Vesely <vlastavesely@protonmail.ch>
+Standards-Version: 4.4.0.1
+Build-Depends: debhelper-compat (= 11)
+Vcs-Git: https://gitlab.com/vlastavesely/crc32sum.git
+Vcs-Browser: https://gitlab.com/vlastavesely/crc32sum
+
+Package: crc32sum
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Compute and check CRC32 message checksums
+ A simple utility that calculates the CRC-32 checksum for each of the given
+ files or for data from standard input. It aims to work in the same way as the
+ md5sum utility.
