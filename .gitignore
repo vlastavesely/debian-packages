@@ -1,0 +1,13 @@
+# Package working trees
+/*/*
+!/*/debian
+
+# Archives
+/*.tar.[gx]z
+/*.zip
+
+# Generated packages and meta information
+/*.dsc
+/*.deb
+/*.buildinfo
+/*.changes
