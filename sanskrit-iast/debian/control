@@ -1,0 +1,15 @@
+Source: sanskrit-iast
+Section: misc
+Priority: optional
+Maintainer: Vlasta Vesely <vlastavesely@protonmail.ch>
+Standards-Version: 4.4.0.1
+Build-Depends: debhelper-compat (= 11)
+Vcs-Git: https://gitlab.com/vlastavesely/sanskrit-iast.git
+Vcs-Browser: https://gitlab.com/vlastavesely/sanskrit-iast
+
+Package: sanskrit-iast
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Architecture: amd64
+Description: Program for romanisation of texts written in Devanagari
+ Sanskrit-IAST is a console program for the lossless romanisation of
+ Devanagari-written texts using the IAST scheme.
