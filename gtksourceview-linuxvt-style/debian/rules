@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+PREFIX := $$(pwd)/debian/gtksourceview-linuxvt-style/usr
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	$(MAKE) PREFIX=$(PREFIX) install

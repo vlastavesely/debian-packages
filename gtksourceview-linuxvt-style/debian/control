@@ -1,0 +1,15 @@
+Source: gtksourceview-linuxvt-style
+Section: misc
+Priority: optional
+Maintainer: Vlasta Vesely <vlastavesely@protonmail.ch>
+Standards-Version: 4.4.0.1
+Build-Depends: debhelper-compat (= 11)
+Vcs-Git: https://gitlab.com/vlastavesely/gtksourceview-linuxvt-style.git
+Vcs-Browser: https://gitlab.com/vlastavesely/gtksourceview-linuxvt-style
+
+Package: gtksourceview-linuxvt-style
+Depends: ${misc:Depends}
+Architecture: all
+Description: Style scheme for GtkSourceView 3.0
+ Style scheme for GtkSourceView 3.0 using the default colours of the Linux
+ Virtual Terminal as defined in the source code of the Linux kernel.
