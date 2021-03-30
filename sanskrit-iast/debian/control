@@ -9,7 +9,7 @@ Vcs-Browser: https://gitlab.com/vlastavesely/sanskrit-iast
 
 Package: sanskrit-iast
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Architecture: amd64
+Architecture: any
 Description: Program for romanisation of texts written in Devanagari
  Sanskrit-IAST is a console program for the lossless romanisation of
  Devanagari-written texts using the IAST scheme.
