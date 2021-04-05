@@ -1,0 +1,11 @@
+Source: dotd
+Maintainer: Vlasta Vesely <vlastavesely@protonmail.ch>
+Section: misc
+Priority: optional
+Standards-Version: 4.4.0.1
+Build-Depends: debhelper-compat (= 11)
+
+Package: dotd
+Architecture: all
+Depends: ${misc:Depends}
+Description: utility for management of flat configuration files

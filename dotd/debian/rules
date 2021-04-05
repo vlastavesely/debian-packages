@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+PWD = $(shell pwd)
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	make all
+
+override_dh_auto_install:
+	make install PREFIX=$(PWD)/debian/dotd/usr

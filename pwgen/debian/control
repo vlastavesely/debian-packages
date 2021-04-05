@@ -1,0 +1,11 @@
+Source: pwgen
+Maintainer: Vlasta Vesely <vlastavesely@protonmail.ch>
+Section: misc
+Priority: optional
+Standards-Version: 4.4.0.1
+Build-Depends: debhelper-compat (= 11)
+
+Package: pwgen
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: utility to generate random passwords
