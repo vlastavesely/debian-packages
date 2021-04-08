@@ -9,3 +9,5 @@ Package: dotd
 Architecture: all
 Depends: ${misc:Depends}
 Description: utility for management of flat configuration files
+ A simple administrative utility for dynamic generation of flat configuration
+ files from a '*.d' directory.

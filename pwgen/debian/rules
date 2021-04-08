@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-PWD = $(shell pwd)
+PREFIX = $(shell pwd)/debian/pwgen/usr
 
 %:
 	dh $@
@@ -9,4 +9,4 @@ override_dh_auto_build:
 	make all
 
 override_dh_auto_install:
-	make install prefix=$(PWD)/debian/pwgen/usr
+	make install prefix=$(PREFIX)

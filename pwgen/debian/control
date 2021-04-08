@@ -9,3 +9,5 @@ Package: pwgen
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: utility to generate random passwords
+ A simple utility to generate random strings composed of characters from
+ different character sets.
